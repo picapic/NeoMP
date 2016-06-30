@@ -1,0 +1,596 @@
+﻿#international message file
+#imessage v1.0 by Bombo is needed
+#
+#Format of the name: "\n[MESSAGE_NAME]\n", where MESSAGE_NAME is latin only
+#Format of the language: "\nxx {", xx - language code, contains 2 latin characters only
+#Format of the end of string: "};\n", no spaces between caracters
+#In the end of file: "\n\n", message lost is possible in other case (!)
+#
+#Encoding: UTF8
+#New line: Unix
+#
+#File size is unlimited.
+#Location: program root
+#
+#
+#Поддерживаемые языки: "ru","en","es","pt","fr","uk","cs","de","it","pl","tr","sr","bg","ro"
+#
+#Формат имени сообщения: "\n[MESSAGE_NAME]\n", имя сообщения всегда латинскими буквами
+#Формат задания языка: "\nxx {", где xx - обозначение языка, всегда 2 латинских символа
+#Формат конца строчки: "};\n", все три символа должны быть рядом
+#В конце файла обязательно: "\n\n" (!), иначе потеряется последнее сообщение
+#
+#Кодировка файла: UTF8
+#Конец строки: Unix
+#
+#Файл практически не имеет ограничения по объёму.
+#Расположение: в одной директории с программой
+
+[LANGUAGE_NAME]
+ru {Русский};
+en {English};
+es {Español};
+pt {Português};
+fr {Français};
+uk {Український};
+cs {Česká};
+de {Deutsch};
+it {Italiana};
+pl {Polski};
+tr {Türk};
+sr {Сръбски};
+bg {Български};
+ro {Română};
+
+[HOST_ADDR_PAR]
+ru {Адрес:};
+en {Address:};
+es {Dirección:};
+pt {IP:};
+ro {Adresa:};
+
+[PLAYERS_PAR]
+ru {Игроки:};
+en {Players:};
+es {Jugadores:};
+pt {Jogadores:};
+ro {Jucători:};
+
+[PING_PAR]
+ru {Пинг:};
+en {Ping:};
+es {Ping:};
+pt {Ping:};
+ro {Ping:};
+
+[MODE_PAR]
+ru {Мод:};
+en {Mode:};
+es {Modo:};
+pt {Modo:};
+ro {Mod:};
+
+[MAP_PAR]
+ru {Карта:};
+en {Map:};
+es {Mapa:};
+pt {Mapa:};
+ro {Mapa:};
+
+[HOST_NAME_PAR]
+ru {Имя сервера:};
+en {Host name:};
+es {Nombre de host:};
+pt {Nome do host:};
+ro {Nume host:};
+
+[FILTER_PAR]
+ru { Фильтр };
+en { Filter };
+es { Filtrar };
+pt { Filtrar };
+ro { Filtrare };
+
+[ABOUT_SERVER_PAR]
+ru { О сервере: };
+en { Server Info: };
+es { Info del Servidor: };
+pt { Informações do Servidor: };
+ro { Informaţiile Serverului: };
+
+[NOT_FULL_PAR]
+ru {Не заполненные};
+en {Not full};
+es {No este lleno};
+pt {Não está cheio};
+ro {Nu este plin};
+
+[NOT_EMPTY_PAR]
+ru {Не пустые};
+en {Not empty};
+es {No este vacío};
+pt {Não está vazio};
+ro {Nu este gol};
+
+[NO_PASSWORD_PAR]
+ru {Без пароля};
+en {No password};
+es {Sin contraseña};
+pt {Sem senha};
+ro {Fără parolă};
+
+[MASTER_LIST_PAR]
+ru {Мастер-лист};
+en {Master list};
+es {Lista principal};
+pt {Lista principal};
+ro {Lista principală};
+
+[HOST_NAME_COL]
+ru {Имя сервера};
+en {Host name};
+es {Nombre de host};
+pt {Nome do host};
+ro {Nume host};
+
+[PLAYERS_COL]
+ru {Игроки};
+en {Players};
+es {Jugadores};
+pt {Jogadores};
+ro {Jucători};
+
+[PING_COL]
+ru {Пинг};
+en {Ping};
+es {Ping};
+pt {Ping};
+ro {Ping};
+
+[MODE_COL]
+ru {Мод};
+en {Mode};
+es {Modo};
+pt {Modo};
+ro {Mod};
+
+[MAP_COL]
+ru {Карта};
+en {Map};
+es {Mapa};
+pt {Mapa};
+ro {Mapa};
+
+[PLAYER_COL]
+ru {Игрок};
+en {Player};
+es {Jugador};
+pt {Jogador};
+ro {Jucător};
+
+[SCORE_COL]
+ru {Очки};
+en {Score};
+es {Puntuación};
+pt {Score};
+ro {Scor};
+
+[RULE_COL]
+ru {Параметр};
+en {Rule};
+es {Regla};
+pt {Regra};
+ro {Regulă};
+
+[VALUE_COL]
+ru {Значение};
+en {Value};
+es {Valor};
+pt {Valor};
+ro {Valoare};
+
+[LAGCOMP_RULE]
+ru {компенсация};
+en {lagcomp};
+es {lagcomp};
+pt {lagcomp};
+ro {lagcomp};
+
+[MAPNAME_RULE]
+ru {карта};
+en {mapname};
+es {mapname};
+pt {mapname};
+ro {nume mapă};
+
+[VERSION_RULE]
+ru {версия};
+en {version};
+es {version};
+pt {version};
+ro {versiune};
+
+[WEATHER_RULE]
+ru {погода};
+en {weather};
+es {weather};
+pt {weather};
+ro {vremea};
+
+[WEBURL_RULE]
+ru {страница};
+en {weburl};
+es {weburl};
+pt {weburl};
+ro {weburl};
+
+[WORLDTIME_RULE]
+ru {время};
+en {worldtime};
+es {worldtime};
+pt {worldtime};
+ro {ora din joc};
+
+[PLAYER_NAME_PAR]
+ru {Ник:};
+en {Name:};
+es {Nombre:};
+pt {Nome:};
+ro {Nume:};
+
+[FAVORITES_PAR]
+ru {Избранные};
+en {Favorites};
+es {Favoritos};
+pt {Favoritos};
+ro {Favorite};
+
+[INTERNET_PAR]
+ru {Интернет};
+en {Internet};
+es {Internet};
+pt {Internet};
+ro {Internet};
+
+[HOSTED_PAR]
+ru {Выделенные};
+en {Hosted};
+es {Hosted};
+pt {Hosted};
+ro {Găzduite};
+
+[SERVERS_STR]
+ru {Сервера: };
+en {Servers: };
+es {Servidores: };
+pt {Servidores: };
+ro {Servere: };
+
+[PLAYERS_STR]
+ru { игроков};
+en { players};
+es { jugadores};
+pt { jogadores};
+ro { jucători};
+
+[PLAYING_ON_STR]
+ru { игроков, играют на };
+en { players, playing on };
+es { jugadores, jugando en };
+pt { jogadores, jogando em };
+ro { jucători, în };
+
+[ON_SERVERS_STR]
+ru { серверах. (};
+en { servers. (};
+es { servidores. (};
+pt { servidores. (};
+ro { servere. (};
+
+[SLOTS_STR]
+ru { слотов свободно)};
+en { player slots available)};
+es { espacios libres diponibles)};
+pt { slots disponíveis)};
+ro { locuri disponibile)};
+
+[FILE_MENU]
+ru {Файл};
+en {File};
+es {Archivo};
+pt {Arquivo};
+ro {Fişier};
+
+[LOAD_MENU]
+ru {Загрузить Список Серверов};
+en {Import Favorites List};
+es {Importar Lista de Favoritos};
+pt {Importar Lista de Favoritos};
+ro {Importă Listă de Favorite};
+
+[SAVE_MENU]
+ru {Сохранить Список Серверов};
+en {Export Favorites List};
+es {Exportar Lista de Favoritos};
+pt {Exportar Lista de Favoritos};
+ro {Exportă Listă de Favorite};
+
+[EXIT_MENU]
+ru {Выход};
+en {Exit};
+es {Salir};
+pt {Sair};
+ro {Ieşire};
+
+[VIEW_MENU]
+ru {Вид};
+en {View};
+es {Ver};
+pt {Ver};
+ro {Vezi};
+
+[SERVERS_MENU]
+ru {Сервера};
+en {Servers};
+es {Servidores};
+pt {Servidores};
+ro {Servere};
+
+[CONNECT_MENU]
+ru {Подключиться};
+en {Connect};
+es {Conectar};
+pt {Conectar};
+ro {Conectare};
+
+[ADD_SERVER_MENU]
+ru {Добавить Сервер};
+en {Add Server};
+es {Agregar Servidor};
+pt {Adicionar Servidor};
+ro {Adaugă Server};
+
+[DELETE_SERVER_MENU]
+ru {Удалить Сервер};
+en {Delete Server};
+es {Quitar Servidor};
+pt {Remover Servidor};
+ro {Şterge Server};
+
+[REFRESH_SERVER_MENU]
+ru {Обновить Сервер};
+en {Refresh Server};
+es {Refrescar Servidor};
+pt {Atualizar Servidor};
+ro {Actualizează Server};
+
+[MASTER_LIST_MENU]
+ru {Обновить Список Серверов};
+en {Master List Update};
+es {Actualizar Lista Principal};
+pt {Atualizar Lista Principal};
+ro {Actualizează Lista Principală};
+
+[COPY_INFO_MENU]
+ru {Копировать Данные Сервера};
+en {Copy Server Info};
+es {Copiar Info del Servidor};
+pt {Copiar Informações do Servidor};
+ro {Copiază Informaţiile Serverului};
+
+[SERVER_INFO_MENU]
+ru {О Сервере};
+en {Server Properties};
+es {Propiedades del Servidor};
+pt {Propriedades do servidor};
+ro {Propietăţiile Serverului};
+
+[TOOLS_MENU]
+ru {Настройки};
+en {Tools};
+es {Herramientas};
+pt {Ferramentas};
+ro {Unelte};
+
+[SETTINGS_MENU]
+ru {Параметры};
+en {Settings};
+es {Ajustes};
+pt {Opções};
+ro {Setări};
+
+[FILTER_MENU]
+ru {Фильтр / О Сервере};
+en {Filter / Server Info};
+es {Filtrar / Info del Servidor};
+pt {Filtrar / Informações do Servidor};
+ro {Filtrare / Informaţii Server};
+
+[STATUS_MENU]
+ru {Строка Состояния};
+en {Status Bar};
+es {Barra de Estado};
+pt {Barra de Status};
+ro {Bara de Status};
+
+[EXTRA_MENU]
+ru {Дополнительно};
+en {Extra Options};
+es {Opciones Adicionales};
+pt {Opções Adicionais};
+ro {Opţiuni Adiţionale};
+
+[HELP_MENU]
+ru {Помощь};
+en {Help};
+es {Ayuda};
+pt {Ajuda};
+ro {Ajutor};
+
+[WIKI_MENU]
+ru {Wiki Помощь};
+en {Help Topics};
+es {Temas de Ayuda};
+pt {Tópicos de Ajuda};
+ro {Subiecte de Ajutor};
+
+[ABOUT_MENU]
+ru {О программе};
+en {About};
+es {Acerca De};
+pt {Sobre};
+ro {Despre};
+
+[FORM2_CAPTION_TEXT]
+ru {Свойства Сервера - (Только Нажмите "Подключиться"!)};
+en {Server Properties - (Just click "Connect"!)};
+es {Propiedades del Servidor - (¡Solo haz click en "Connect"!)};
+pt {Propriedades do Servidor - (Clique em "Conectar"!)};
+ro {Propietăţi Server - (Apasă "Conectare"!)};
+
+[SAVE_BUTTON]
+ru {Сохранить};
+en {Save};
+es {Guardar};
+pt {Salvar};
+fr {Save};
+uk {Save};
+cs {Save};
+de {Save};
+it {Save};
+pl {Save};
+tr {Save};
+sr {Save};
+bg {Save};
+ro {Salvare};
+
+[OK_BUTTON]
+ru {OK};
+en {OK};
+es {OK};
+pt {OK};
+fr {OK};
+uk {OK};
+cs {OK};
+de {OK};
+it {OK};
+pl {OK};
+tr {OK};
+sr {OK};
+bg {OK};
+ro {Confirmare};
+
+[CANCEL_BUTTON]
+ru {Отмена};
+en {Cancel};
+es {Cancelar};
+pt {Cancelar};
+fr {Cancel};
+uk {Cancel};
+cs {Cancel};
+de {Cancel};
+it {Cancel};
+pl {Cancel};
+tr {Cancel};
+sr {Cancel};
+bg {Cancel};
+ro {Anulare};
+
+[SERVER_PASSWORD_PAR]
+ru {Пароль Cервера:};
+en {Server Password:};
+es {Contraseña del Servidor:};
+pt {Senha do Servidor:};
+ro {Parola Serverului:};
+
+[RCON_PASSWORD_PAR]
+ru {RCON Пароль:};
+en {RCON Password:};
+es {Contraseña de RCON:};
+pt {Senha da RCON:};
+ro {Parola RCON:};
+
+[FORM3_PASSWORDS_TEXT]
+ru {Пароли};
+en {Passwords};
+es {Contraseñas};
+pt {Senhas};
+ro {Parole};
+
+[FORM3_SERVER_PASS_TEXT]
+ru {Автоматически Сохранять Пароли Серверов};
+en {Auto-Save Server Passwords};
+es {Guardar Contraseñas del Servidor Automáticamente};
+pt {Salvar Senha do Servidor automaticamente};
+ro {Salvare Parolă Server Automată};
+
+[FORM3_RCON_PASS_TEXT]
+ru {Автоматически Сохранять RCON Пароли};
+en {Auto-Save Rcon Passwords};
+es {Guardar Contraseñas de Rcon Automáticamente};
+pt {Salvar Senha da RCON automaticamente};
+ro {Salvare Parolă RCON Automată};
+
+[FORM3_LOCATION_TEXT]
+ru {Путь К San Andreas:};
+en {San Andreas Installation Location:};
+es {Ubicación de la Instalación de San Andreas:};
+pt {Diretório de Instalação do GTA:SA};
+ro {Locaţia jocului:};
+
+[FORM3_LANGUAGE_TEXT]
+ru {Язык:};
+en {Language:};
+es {Lenguaje:};
+pt {Linguagem:};
+ro {Limba:};
+
+[FORM4_AUTHOR_TEXT]
+ru {Автор:};
+en {Author:};
+es {Autor:};
+pt {Autor:};
+ro {Autor:};
+
+[FORM4_VERSION_TEXT]
+ru {Версия:};
+en {Version:};
+es {Version:};
+pt {Version:};
+ro {Versiune:};
+
+[FORM4_DATE_TEXT]
+ru {Дата:};
+en {Date:};
+es {Fecha:};
+pt {Data:};
+ro {Data:};
+
+[FORM5_CAPTION_TEXT]
+ru {Добавить Сервер};
+en {Add Server};
+es {Agregar Servidor};
+pt {Adicionar Servidor};
+ro {Adăugare Server};
+
+[FORM5_NEW_SERVER_TEXT]
+ru {Введите адрес сервера ХОСТ:ПОРТ...};
+en {Enter new server HOST:PORT...};
+es {Ingrese un nuevo servidor HOST:PUERTO...};
+pt {Digite um novo servidor IP:PORTA};
+ro {Introduceţi adresa serverului (IP:Port)};
+
+[FORM1_CAPTION_TEXT]
+ru {San Andreas Мультиплеер 0.Xx, 0.X.X};
+en {San Andreas Multiplayer 0.Xx, 0.X.X};
+es {Multijugador de San Andreas 0.Xx, 0.X.X};
+pt {San Andreas Multiplayer 0.Xx, 0.X.X};
+ro {San Andreas Multiplayer 0.Xx, 0.X.X};
+
+[FORM4_THANKS_TEXT]
+ru {Спасибо:};
+en {Thanks to:};
+es {Gracias:};
+pt {Obrigado:};
+ro {Multumesc:};
+
